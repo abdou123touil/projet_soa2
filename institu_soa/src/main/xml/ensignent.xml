@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ensignents[
+        <!ELEMENT Ensignents (Ensignent*)>
+        <!ELEMENT Ensignent (Id, Nom, Prenom, DateDeNaissance, Adresse, Ville)>
+
+        <!ELEMENT Id (#PCDATA)>
+        <!ELEMENT Nom (#PCDATA)>
+        <!ELEMENT Prenom (#PCDATA)>
+        <!ELEMENT DateDeNaissance (#PCDATA)>
+        <!ELEMENT Adresse (#PCDATA)>
+        <!ELEMENT Ville (#PCDATA)>
+        ]>
+
+<Ensignents>
+    <Ensignent>
+        <Id>1</Id>
+        <Nom>NomEnseignant</Nom>
+        <Prenom>PrenomEnseignant</Prenom>
+        <DateDeNaissance>2023-10-23</DateDeNaissance>
+        <Adresse>AdresseEnseignant</Adresse>
+        <Ville>VilleEnseignant</Ville>
+    </Ensignent>
+</Ensignents>

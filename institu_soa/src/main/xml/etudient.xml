@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Etudient [
+        <!ELEMENT Etudient (Id, Nom, Prenom, DateDeNaissance, Adresse, Ville, NiveauEtude)>
+
+        <!ELEMENT Id (#PCDATA)>
+        <!ELEMENT Nom (#PCDATA)>
+        <!ELEMENT Prenom (#PCDATA)>
+        <!ELEMENT DateDeNaissance (#PCDATA)>
+        <!ELEMENT Adresse (#PCDATA)>
+        <!ELEMENT Ville (#PCDATA)>
+        <!ELEMENT NiveauEtude (#PCDATA)>
+        ]>
+
+<Etudient>
+    <Id>1</Id>
+    <Nom>NomEtudiant</Nom>
+    <Prenom>PrenomEtudiant</Prenom>
+    <DateDeNaissance>2023-10-23</DateDeNaissance>
+    <Adresse>AdresseEtudiant</Adresse>
+    <Ville>VilleEtudiant</Ville>
+    <NiveauEtude>12</NiveauEtude>
+</Etudient>

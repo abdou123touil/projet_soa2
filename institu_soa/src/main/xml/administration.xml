@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Administrations [
+        <!ELEMENT Administrations (Administration*)>
+        <!ELEMENT Administration (Id, Nom, Prenom, DateDeNaissance, Adresse, Ville, Role)>
+
+        <!ELEMENT Id (#PCDATA)>
+        <!ELEMENT Nom (#PCDATA)>
+        <!ELEMENT Prenom (#PCDATA)>
+        <!ELEMENT DateDeNaissance (#PCDATA)>
+        <!ELEMENT Adresse (#PCDATA)>
+        <!ELEMENT Ville (#PCDATA)>
+        <!ELEMENT Role (#PCDATA)>
+        
+        ]>
+
+<Administrations>
+    <Administration>
+        <Id>1</Id>
+        <Nom>NomAdmin</Nom>
+        <Prenom>PrenomAmind</Prenom>
+        <DateDeNaissance>2023-10-23</DateDeNaissance>
+        <Adresse>AdresseAdmin</Adresse>
+        <Ville>VilleAdmin</Ville>
+        <Role>ROleAdmin</Role>
+        
+    </Administration>
+</Administrations>
