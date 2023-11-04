@@ -25,7 +25,7 @@ public class administrationCon {
     private administrationServ adminService;
 
      @PostMapping()
-    public ResponseEntity<adiministration> createAdmin(@RequestBody adiministration admin){
+    public ResponseEntity<adiministration> createCadre(@RequestBody adiministration admin){
 
         adiministration a = adminService.createAdmin(admin);
         return new ResponseEntity<>(a, HttpStatus.OK);
@@ -48,7 +48,7 @@ public class administrationCon {
 
 
 
-      @PutMapping("{id}")
+    @PutMapping("{id}")
     public ResponseEntity<adiministration> updateAdmin(@PathVariable("id") Long adminId,@RequestBody adiministration admin){
         adiministration updated = adminService.updateAdmin(adminId,admin);
         return new ResponseEntity<>(updated, HttpStatus.OK);
