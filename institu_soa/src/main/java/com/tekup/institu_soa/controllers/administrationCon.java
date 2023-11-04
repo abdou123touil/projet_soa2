@@ -25,7 +25,7 @@ public class administrationCon {
     private administrationServ adminService;
 
      @PostMapping()
-    public ResponseEntity<adiministration> createCadre(@RequestBody adiministration admin){
+    public ResponseEntity<adiministration> createAdmin(@RequestBody adiministration admin){
 
         adiministration a = adminService.createAdmin(admin);
         return new ResponseEntity<>(a, HttpStatus.OK);
