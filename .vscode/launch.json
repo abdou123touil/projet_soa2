@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-InstituSoaApplication<institu_soa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.tekup.institu_soa.InstituSoaApplication",
+            "projectName": "institu_soa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

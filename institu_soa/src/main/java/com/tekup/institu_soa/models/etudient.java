@@ -12,7 +12,7 @@ public class etudient extends utilisateur {
       @Column(name = "niveau_etude")
         private int  NEtude;
         public etudient(){}
-        public etudient(Long id,String nom, String prenom, Date datedenaissance, String adr, String ville,int niveauEtude) {
+        public etudient(Long id,String nom, String prenom, Date datedenaissance, String adr, String ville,int NEtude) {
             super(id,nom, prenom, datedenaissance, adr, ville);
             this.NEtude=NEtude;
         }

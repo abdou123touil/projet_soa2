@@ -16,7 +16,7 @@ public class utilisateur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Long id;
-    //for define inside the column
+ 
     @Column(name = "Firstname")
     protected String  nom;
     @Column(name = "Lastname")
@@ -28,7 +28,7 @@ public class utilisateur {
     @Column(name = "Adress")
     protected String ville;
 
-    //constructor
+    
         public utilisateur(Long id,String nom, String prenom, Date datedenaissance, String adr, String ville) {
             this.id=id;
             this.nom = nom;
